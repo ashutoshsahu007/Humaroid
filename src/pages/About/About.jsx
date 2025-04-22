@@ -10,26 +10,30 @@ const About = () => {
             About HUMANOID Rehab Clinic
           </h2>
           <p className="max-w-3xl mx-auto text-gray-600">
-            With a legacy of excellence spanning over decades, BLK-MAX Hospital
-            is committed to providing comprehensive healthcare services with a
-            human touch.
+            With a legacy of excellence spanning over decades, the Orthotics &
+            Prosthetics Centre is committed to providing comprehensive
+            healthcare services with a human touch.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6">
             <p className="text-gray-600">
-              Founded in 1959, BLK-MAX Hospital has grown to become one of
-              India's most respected healthcare institutions. Our commitment to
-              excellence, innovation, and patient care has allowed us to
-              consistently deliver world-class medical services.
+              Humanoid Rehab Clinic is dedicated to transforming lives through
+              advanced prosthetics, orthotics, and rehabilitation services. We
+              believe recovery is not just about mobility—it's about restoring
+              confidence, independence, and quality of life. Our expert team
+              combines clinical innovation with compassionate care, supporting
+              patients at every stage of their journey.
             </p>
             <p className="text-gray-600">
-              Our state-of-the-art facilities, coupled with our team of
-              internationally trained doctors, ensure that we provide the
-              highest standards of medical care across all specialties. Our
-              patient-first approach guides everything we do, from diagnosis to
-              treatment and aftercare.
+              We also partner with hospitals and clinics to extend our impact
+              and deliver seamless, personalized solutions. Whether you're
+              adapting to a new prosthetic, in need of spinal support, or
+              beginning physiotherapy, we’re here to guide you with tailored
+              care and cutting-edge technology. At Humanoid Rehab Clinic, your
+              recovery is our mission, and every step forward is a step toward
+              living fully again.
             </p>
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div className="flex flex-col items-center p-4 bg-[#E8F4FC] rounded-lg">

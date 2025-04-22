@@ -4,26 +4,26 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     id: 1,
-    name: "Anjali Mehta",
+    name: "Amit Singh ",
     role: "Patient",
     quote:
-      "I came to [Hospital Name] during an emergency, and I can’t thank the staff enough for how quickly and compassionately they treated me. The doctors were amazing, and the nurses were with me every step of the way.",
+      "I was in a car accident that made me more determined to walk after losing my right leg below the knee. I got fitted for my leg and when it was done, it was like hitting the lottery. My service was fast, great and accurate. When I first put my leg on I started walking right away without therapy because I had determination and a great team that stood behind me. I couldn't ask for a better team then the one I have with A1 service, love and passion",
     rating: 5,
   },
   {
     id: 2,
-    name: "Shweta Reddy",
+    name: "Annu Panday",
     role: "Patient",
     quote:
-      "I’ve never felt more cared for in a medical setting. The team listened to my concerns, explained everything clearly, and made me feel like more than just a patient.",
+      "Losing my leg was the worst day of my life. While lying in my hospital bed recovering from my surgery and wondering if I'd ever be able to live a normal life again, I was visited by Joe Smith of Amar Humanoid to talk about a prosthetic leg. With Joe's help, I was the first amputee at Mount Vernon Hospital to walk out with a prosthetic leg, instead of the usual course of treatment which calls for getting a leg months later. Joe has been by my side ever since, every step of the way. His help and encouragement have been invaluable. He and his staff are #1 in every way and a pleasure to work with. If you are ever in the unfortunate situation where you lose a limb, I hope you will choose Amar Humanoid to help you through the process.",
     rating: 5,
   },
   {
     id: 3,
-    name: "Farah Hussain",
+    name: "Rohit Prasad",
     role: "Patient",
     quote:
-      "The hospital is spotless, the staff is polite, and everything is so well organized. I was nervous going in for surgery, but the team made me feel calm and confident.",
+      "My neurosurgeon prescribed a soft Thomas Cervical Collar. His office directed me to go to Infinite Amar Humanoid Rehab Clinic. Making the appointment was so easy, thanks to a very professional, flexible, and pleasant receptionist. On the day of the appointment, I met with my assigned practitioner, who was very patient, compassionate, thorough, and knowledgeable about my condition as well as her field. My visit to Amar Humanoid Rehab Clinic was very informative and stress free.",
     rating: 5,
   },
 ];

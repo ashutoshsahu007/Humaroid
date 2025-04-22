@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const specialties = [
-  { title: "Cardiac Sciences", icon: "💓" },
-  { title: "Neurosciences", icon: "🧠" },
-  { title: "Orthopaedics", icon: "🦴" },
-  { title: "Oncology", icon: "🎗️" },
-  { title: "Nephrology & Urology", icon: "🩺" },
-  { title: "Gastroenterology", icon: "🥼" },
+  { title: "Prosthetic Limbs", icon: "💓" },
+  { title: "Orthotics Solution", icon: "🧠" },
+  { title: "Spinal Braces", icon: "🦴" },
+  { title: "Silicon Prosthetic Solution", icon: "🎗️" },
+  { title: "Diabetic Foot Care", icon: "🩺" },
+  { title: "Physiotherapist", icon: "🥼" },
 ];
 
 const fadeInUp = {
@@ -28,7 +28,7 @@ export default function CenterOfExcellence() {
     <div className="py-16">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4 text-blue-900 text-center">
-          Our Centers of Excellence
+          Our Services
         </h2>
         <p className="text-gray-600 mb-12">
           World-class expertise across a broad range of specialties.

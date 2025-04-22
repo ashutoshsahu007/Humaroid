@@ -6,13 +6,13 @@ const sections = [
     title: "Prosthetics",
     description:
       "Ottobock prosthetic solutions are designed to keep users moving wherever they are in their journey. With a wide range of solutions, our goal is to meet your ideal outcome every step of the way. From the C-Leg 4 to the latest socket technology, we're here to support your freedom of movement.",
-    imageUrl: "s/1.avif",
+    imageUrl: "section/img1.png",
   },
   {
     title: "Exoskeletons",
     description:
       "For more than a decade, SUITX by Ottobock has been developing innovative solutions to make workplaces in manufacturing, logistics, and the trades more ergonomic. Our mission is to minimize physical strain, create healthier working conditions, and increase productivity.",
-    imageUrl: "s/2.avif",
+    imageUrl: "section/img2.png",
   },
   {
     title: "Ballet",

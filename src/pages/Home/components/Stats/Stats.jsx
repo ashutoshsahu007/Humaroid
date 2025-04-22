@@ -1,5 +1,6 @@
 import React from "react";
-import { Award, Users, Clock, ThumbsUp } from "lucide-react";
+import { Award, Clock, ThumbsUp } from "lucide-react";
+import { RiRobot2Fill } from "react-icons/ri";
 
 const statsData = [
   {
@@ -8,19 +9,19 @@ const statsData = [
     label: "Client Satisfaction",
   },
   {
-    icon: <Users className="text-white h-10 w-10" />,
-    value: "1000+",
-    label: "Women Represented",
-  },
-  {
     icon: <Award className="text-white h-10 w-10" />,
-    value: "15+",
+    value: "12+",
     label: "Years of Experience",
   },
   {
     icon: <Clock className="text-white h-10 w-10" />,
     value: "24/7",
     label: "Support Available",
+  },
+  {
+    icon: <RiRobot2Fill className="text-white h-10 w-10" />,
+    value: "100%",
+    label: "Advance Technology",
   },
 ];
 
