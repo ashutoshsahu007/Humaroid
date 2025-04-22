@@ -7,7 +7,7 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4 text-blue-900 text-center">
-            About AMARHUMANOID Hospital
+            About HUMANOID Rehab Clinic
           </h2>
           <p className="max-w-3xl mx-auto text-gray-600">
             With a legacy of excellence spanning over decades, BLK-MAX Hospital
