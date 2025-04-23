@@ -6,7 +6,7 @@ const About = () => {
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4 text-blue-900 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-blue-900 text-center">
             About HUMANOID Rehab Clinic
           </h2>
           <p className="max-w-3xl mx-auto text-gray-600">
@@ -35,7 +35,7 @@ const About = () => {
               recovery is our mission, and every step forward is a step toward
               living fully again.
             </p>
-            <div className="grid grid-cols-2 gap-4 pt-4">
+            {/* <div className="grid grid-cols-2 gap-4 pt-4">
               <div className="flex flex-col items-center p-4 bg-[#E8F4FC] rounded-lg">
                 <span className="text-3xl font-bold text-[#233876]">50+</span>
                 <span className="text-gray-600">Specialties</span>
@@ -52,7 +52,7 @@ const About = () => {
                 <span className="text-3xl font-bold text-[#233876]">40k+</span>
                 <span className="text-gray-600">Patients Yearly</span>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="space-y-4">
             <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#20b6aa]">

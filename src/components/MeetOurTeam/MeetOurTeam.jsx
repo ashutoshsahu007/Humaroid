@@ -27,7 +27,7 @@ const Team = () => {
     <section className="py-10 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl text-blue-900 font-serif font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl text-blue-900 font-bold mb-4">
             Meet Our Team
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">

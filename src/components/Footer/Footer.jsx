@@ -14,8 +14,8 @@ const Footer = () => {
   return (
     <div className="bg-[#4e9bc4]  py-2 text-[#ffffff]">
       <div className="col1 flex flex-col gap-20 md:gap-[170px] px-4 md:justify-center py-6 border-b-1 lg:gap-20 lg:px-10 md:flex-row md:flex-wrap lg:flex-nowrap">
-        <div className="w-full flex flex-col  gap-6 items-start md:w-[290px]">
-          <img src="logo/footer_logo.png" className="w-[230px] h-[80px]" />
+        <div className="w-full flex flex-col  gap-3 items-start md:w-[290px]">
+          <img src="logo/logo.png" className="w-[80px]" />
           <p className="text-sm leading-6">
             At Amar Humanoid Rehab Clinic, we take a different approach to
             provide prosthetics and orthotics services. We have put better care

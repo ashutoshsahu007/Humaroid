@@ -5,7 +5,7 @@ const sections = [
   {
     title: "Prosthetics",
     description:
-      "Ottobock prosthetic solutions are designed to keep users moving wherever they are in their journey. With a wide range of solutions, our goal is to meet your ideal outcome every step of the way. From the C-Leg 4 to the latest socket technology, we're here to support your freedom of movement.",
+      "We provide advanced prosthetic solutions designed to restore mobility, confidence, and independence. From high-performance microprocessor knees like the C-Leg 4 to innovative socket designs, our focus is on comfort, function, and a personalized fit.",
     imageUrl: "section/img1.png",
   },
   {
@@ -45,6 +45,15 @@ const Products = () => {
             <div className="md:w-1/2  px-4">
               <h2 className="text-4xl font-bold mb-4">{section.title}</h2>
               <p className="text-lg text-gray-800">{section.description}</p>
+              <div>
+                <h2 className="text-2xl font-bold mt-5 mb-5">What We Offer</h2>
+                <ul className="flex flex-col gap-3 list-disc text-gray-800 pl-5 space-y-1">
+                  <li>Lower and upper limb prosthetics</li>
+                  <li> Microprocessor-controlled knees and ankles</li>
+                  <li> Lightweight, durable socket technologys</li>
+                  <li> Custom solutions tailored to your lifestyle</li>
+                </ul>
+              </div>
               <button className="bg-[#00157a] mt-5 p-3 rounded-full text-white font-medium">
                 Learn More
               </button>

@@ -1,6 +1,6 @@
 import React from "react";
 import HeroImage from "./components/HeroImage/HeroImage";
-import CenterOfExcellence from "./components/CenterOfExcellence/CenterOfExcellence";
+import Services from "./components/Services/Services";
 import Offer from "./components/Offer/Offer";
 import Executive from "./components/Executive/Executive";
 import LifeStyle from "./components/LifeStyle/LifeStyle";
@@ -22,7 +22,7 @@ const Home = () => {
       <Stats />
       <Team />
       <LifeStyle />
-      <CenterOfExcellence />
+      <Services />
       <Review />
       <Testimonial />
     </div>

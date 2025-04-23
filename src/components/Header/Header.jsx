@@ -23,7 +23,7 @@ export default function Header() {
       <div className="col2 bg-white shadow-md ">
         <div className="max-w-7xl mx-auto px-6  flex items-center justify-between">
           <Link to="/">
-            <img src="Humanoid.png" alt="image not found" className="w-20" />
+            <img src="logo/logo.png" alt="image not found" className="w-20" />
           </Link>
           <div className="flex items-center gap-10">
             <ul className="hidden lg:flex  items-center gap-5 text-gray-700 font-medium">

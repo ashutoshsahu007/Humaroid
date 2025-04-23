@@ -27,7 +27,7 @@ const blogPosts = [
 const HospitalBlog = () => {
   return (
     <div className="px-4 py-10 max-w-7xl mx-auto">
-      <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4 text-blue-900 text-center">
+      <h2 className="text-3xl md:text-4xl font-bold mb-4 text-blue-900 text-center">
         Hospital Blog
       </h2>
       <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

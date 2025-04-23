@@ -7,7 +7,7 @@ const testimonials = [
     name: "Amit Singh ",
     role: "Patient",
     quote:
-      "I was in a car accident that made me more determined to walk after losing my right leg below the knee. I got fitted for my leg and when it was done, it was like hitting the lottery. My service was fast, great and accurate. When I first put my leg on I started walking right away without therapy because I had determination and a great team that stood behind me. I couldn't ask for a better team then the one I have with A1 service, love and passion",
+      "After losing my right leg in a car accident, I was determined to walk again. Getting fitted for my prosthetic felt like hitting the lottery. The service was fast, accurate, and supportive. I walked immediately without therapy—thanks to my determination and the amazing team behind me. I couldn’t ask for better care, love, and passion than they gave me.",
     rating: 5,
   },
   {
@@ -15,7 +15,7 @@ const testimonials = [
     name: "Annu Panday",
     role: "Patient",
     quote:
-      "Losing my leg was the worst day of my life. While lying in my hospital bed recovering from my surgery and wondering if I'd ever be able to live a normal life again, I was visited by Joe Smith of Amar Humanoid to talk about a prosthetic leg. With Joe's help, I was the first amputee at Mount Vernon Hospital to walk out with a prosthetic leg, instead of the usual course of treatment which calls for getting a leg months later. Joe has been by my side ever since, every step of the way. His help and encouragement have been invaluable. He and his staff are #1 in every way and a pleasure to work with. If you are ever in the unfortunate situation where you lose a limb, I hope you will choose Amar Humanoid to help you through the process.",
+      "Losing my leg was devastating. While recovering, Joe Smith from Amar Humanoid visited and helped me become the first amputee at Mount Vernon Hospital to walk out with a prosthetic. His support has been incredible. Joe and his team are caring, professional, and truly the best. If you ever lose a limb, choose Amar Humanoid—they’ll be with you every step.",
     rating: 5,
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
     name: "Rohit Prasad",
     role: "Patient",
     quote:
-      "My neurosurgeon prescribed a soft Thomas Cervical Collar. His office directed me to go to Infinite Amar Humanoid Rehab Clinic. Making the appointment was so easy, thanks to a very professional, flexible, and pleasant receptionist. On the day of the appointment, I met with my assigned practitioner, who was very patient, compassionate, thorough, and knowledgeable about my condition as well as her field. My visit to Amar Humanoid Rehab Clinic was very informative and stress free.",
+      "My neurosurgeon prescribed a soft Thomas Cervical Collar and referred me to Infinite Amar Humanoid Rehab Clinic. Booking the appointment was easy, thanks to a professional and friendly receptionist. During my visit, the practitioner was patient, compassionate, and highly knowledgeable. The entire experience was informative, smooth, and stress-free. I truly appreciate the care and expertise provided by the Amar Humanoid team.",
     rating: 5,
   },
 ];
@@ -33,7 +33,7 @@ const Testimonial = () => {
     <section className="py-10 md:px-10">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4 text-blue-900">
+          <h2 className="text-3xl md:text-4xl  font-bold mb-4 text-blue-900">
             Patient Testimonials
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
@@ -53,7 +53,9 @@ const Testimonial = () => {
                   />
                 ))}
               </div>
-              <p className="text-gray-700 mb-6 italic">"{testimonial.quote}"</p>
+              <p className="text-gray-700 mb-6 text-justify">
+                "{testimonial.quote}"
+              </p>
               <div>
                 <h4 className="font-semibold text-gray-800">
                   {testimonial.name}
