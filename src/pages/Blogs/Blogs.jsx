@@ -22,6 +22,27 @@ const blogPosts = [
     date: "2025-03-30",
     image: "https://source.unsplash.com/featured/?checkup",
   },
+  {
+    title: "Understanding Healthcare Insurance",
+    excerpt:
+      "Learn about the different types of healthcare insurance available and how they can benefit you and your family.",
+    date: "2025-04-10",
+    image: "https://source.unsplash.com/featured/?insurance",
+  },
+  {
+    title: "How to Stay Healthy During Flu Season",
+    excerpt:
+      "Tips on how to stay safe and healthy during the cold and flu season. Protect yourself with simple preventive measures.",
+    date: "2025-04-05",
+    image: "https://source.unsplash.com/featured/?flu",
+  },
+  {
+    title: "The Importance of Regular Check-ups",
+    excerpt:
+      "Why regular check-ups are essential for your health and how they can help detect potential problems early.",
+    date: "2025-03-30",
+    image: "https://source.unsplash.com/featured/?checkup",
+  },
 ];
 
 const HospitalBlog = () => {

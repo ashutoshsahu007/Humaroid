@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 const sections = [
@@ -7,22 +7,43 @@ const sections = [
     description:
       "We provide advanced prosthetic solutions designed to restore mobility, confidence, and independence. From high-performance microprocessor knees like the C-Leg 4 to innovative socket designs, our focus is on comfort, function, and a personalized fit.",
     imageUrl: "section/img1.png",
+    offer: [
+      "Lower and upper limb prosthetics",
+      "Microprocessor-controlled knees and ankles",
+      "Lightweight, durable socket technologys",
+      "Custom solutions tailored to your lifestyle",
+    ],
   },
   {
     title: "Exoskeletons",
     description:
       "For more than a decade, SUITX by Ottobock has been developing innovative solutions to make workplaces in manufacturing, logistics, and the trades more ergonomic. Our mission is to minimize physical strain, create healthier working conditions, and increase productivity.",
     imageUrl: "section/img2.png",
+    offer: [
+      "Lower and upper limb prosthetics",
+      "Microprocessor-controlled knees and ankles",
+      "Lightweight, durable socket technologys",
+      "Custom solutions tailored to your lifestyle",
+    ],
   },
   {
     title: "Ballet",
     description:
       "For more than a decade, SUITX by Ottobock has been developing innovative solutions to make workplaces in manufacturing, logistics, and the trades more ergonomic. Our mission is to minimize physical strain, create healthier working conditions, and increase productivity.",
     imageUrl: "s/3.avif",
+    offer: [
+      "Lower and upper limb prosthetics",
+      "Microprocessor-controlled knees and ankles",
+      "Lightweight, durable socket technologys",
+      "Custom solutions tailored to your lifestyle",
+    ],
   },
 ];
 
 const Products = () => {
+  const [openIndex, setOpenIndex] = useState(null);
+  const handleOpenIndex = (index) => setOpenIndex(index);
+
   return (
     <motion.div
       initial={{ opacity: 0, y: -20 }}
@@ -46,15 +67,23 @@ const Products = () => {
               <h2 className="text-4xl font-bold mb-4">{section.title}</h2>
               <p className="text-lg text-gray-800">{section.description}</p>
               <div>
-                <h2 className="text-2xl font-bold mt-5 mb-5">What We Offer</h2>
-                <ul className="flex flex-col gap-3 list-disc text-gray-800 pl-5 space-y-1">
-                  <li>Lower and upper limb prosthetics</li>
-                  <li> Microprocessor-controlled knees and ankles</li>
-                  <li> Lightweight, durable socket technologys</li>
-                  <li> Custom solutions tailored to your lifestyle</li>
-                </ul>
+                {openIndex === index && (
+                  <>
+                    <h2 className="text-2xl font-bold mt-5 mb-5">
+                      What We Offer
+                    </h2>
+                    <ul className="flex flex-col gap-3 list-disc text-gray-800 pl-5 space-y-1">
+                      {section.offer.map((item, index) => (
+                        <li key={index}>{item}</li>
+                      ))}
+                    </ul>
+                  </>
+                )}
               </div>
-              <button className="bg-[#00157a] mt-5 p-3 rounded-full text-white font-medium">
+              <button
+                onClick={() => handleOpenIndex(index)}
+                className="bg-[#00157a] hover:cursor-pointer mt-5 p-3 rounded-full text-white font-medium"
+              >
                 Learn More
               </button>
             </div>

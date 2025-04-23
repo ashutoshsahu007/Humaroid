@@ -21,7 +21,7 @@ const ContactUs = () => {
   return (
     <div className="max-w-2xl mx-auto px-4 py-10">
       <div className="bg-white shadow-xl rounded-2xl p-6">
-        <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4 text-blue-900 text-center">
+        <h2 className="text-3xl md:text-4xl  font-bold mb-4 text-blue-900 text-center">
           Contact Us
         </h2>
         <form onSubmit={handleSubmit} className="grid gap-4">
