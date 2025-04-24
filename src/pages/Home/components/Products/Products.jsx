@@ -15,27 +15,44 @@ const sections = [
     ],
   },
   {
-    title: "Exoskeletons",
+    title: "Physiotherapy ",
     description:
-      "For more than a decade, SUITX by Ottobock has been developing innovative solutions to make workplaces in manufacturing, logistics, and the trades more ergonomic. Our mission is to minimize physical strain, create healthier working conditions, and increase productivity.",
+      "Physiotherapy is a specialized form of rehabilitation that restores movement, function, and quality of life through hands-on care, exercise, and proven techniques. Whether you're recovering from injury, managing a chronic condition, or improving mobility with age, our tailored programs help you move better—one step at a time.",
     imageUrl: "section/img2.png",
     offer: [
-      "Lower and upper limb prosthetics",
-      "Microprocessor-controlled knees and ankles",
-      "Lightweight, durable socket technologys",
-      "Custom solutions tailored to your lifestyle",
+      "Post-surgical recovery",
+      "Chronic pain and injury management",
+      "Neurological and orthopedic conditions",
+      "Mobility and strength training",
+      "Holistic care for physical and emotional well-being",
     ],
   },
   {
-    title: "Ballet",
+    title: "Rehabilitation Products",
     description:
-      "For more than a decade, SUITX by Ottobock has been developing innovative solutions to make workplaces in manufacturing, logistics, and the trades more ergonomic. Our mission is to minimize physical strain, create healthier working conditions, and increase productivity.",
+      "We provide a curated range of rehabilitation products designed to enhance comfort, safety, and independence. From mobility aids to ergonomic tools, our solutions support your daily routine—at home, at work, and on the go.",
     imageUrl: "s/3.avif",
     offer: [
-      "Lower and upper limb prosthetics",
-      "Microprocessor-controlled knees and ankles",
-      "Lightweight, durable socket technologys",
-      "Custom solutions tailored to your lifestyle",
+      "Walking aids (canes, walkers, crutches)",
+      "Wheelchairs and seating solutions",
+      "Bathroom safety equipment",
+      "Daily living aids and adaptive tools",
+      "Post-surgical and therapy supports",
+    ],
+  },
+  {
+    title: "Orthotics",
+    description:
+      "We provide expertly crafted orthotic solutions designed to relieve pain, restore function, and support better movement. Orthotics are external devices that support joints and muscles, improve alignment, and help prevent or manage injury. Whether custom-made or off-the-shelf, they’re tailored to your body and your goals.",
+    imageUrl: "s/3.avif",
+    offer: [
+      "Plantar fasciitis",
+      "Foot and ankle pain",
+      "Tendon and ligament injuries",
+      "Fractures",
+      "Arthritis (Osteo & Rheumatoid)",
+      "Diabetes-related foot issues",
+      "Neurological conditions: Stroke, MS, CP, Polio, Spina Bifida, and more",
     ],
   },
 ];
